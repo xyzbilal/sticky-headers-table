@@ -103,14 +103,14 @@ class _StickyHeadersTableState extends State<StickyHeadersTable> {
     super.initState();
     _scrollOffsetX = widget.initialScrollOffsetX;
     _scrollOffsetY = widget.initialScrollOffsetY;
-    _verticalSyncController = _SyncScrollController([
+  /*  _verticalSyncController = _SyncScrollController([
       widget.scrollControllers._verticalTitleController,
       widget.scrollControllers._verticalBodyController,
     ]);
     _horizontalSyncController = _SyncScrollController([
       widget.scrollControllers._horizontalTitleController,
       widget.scrollControllers._horizontalBodyController,
-    ]);
+    ]);*/
   }
 
   @override
